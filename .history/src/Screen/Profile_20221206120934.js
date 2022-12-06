@@ -21,7 +21,7 @@ const Profile = () => {
           <div className="dwn">
             <p
               style={{
-                fontFamily: "Futura Hv BT",
+                fontFamily: "Futura",
                 fontSize: "1.7rem",
                 fontWeight: "bold",
               }}
@@ -31,7 +31,7 @@ const Profile = () => {
             <div>
               <p
                 style={{
-                  fontFamily: "Futura Hv Bt",
+                  fontFamily: "Futura",
                   fontSize: "1.6rem",
                   fontWeight: "lighter",
                 }}
