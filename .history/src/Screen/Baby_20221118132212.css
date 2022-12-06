@@ -1,0 +1,13 @@
+.NewP {
+ text-align: center;
+ margin-bottom: 5%;
+}
+.NewP h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.NewP p{
+    font-size: 2rem;
+    color: #ccc;
+    font-weight: 400;
+}

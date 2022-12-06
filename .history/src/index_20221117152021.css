@@ -1,0 +1,137 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  outline: none;
+}
+
+/* Logo */
+.logo {
+  margin-top: 2% !important;
+  max-width: 30%;
+  display: block;
+  margin: auto;
+}
+.logo img {
+  width: 100%;
+}
+
+/* Navbar  */
+.MainNav {
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-evenly;
+}
+.MainNav .left {
+  margin-top: 1%;
+}
+.fa-bars {
+  font-size: 3rem;
+}
+.MainNav .mid {
+  width: 60%;
+}
+
+.MainNav .right img {
+  width: 80%;
+}
+.MainNav .mid input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  height: 80px;
+}
+.fa-magnifying-glass {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 23%;
+  color: #ccc;
+  top: 25%;
+}
+
+/* */
+.ImageCarousel {
+  margin-top: 5% !important;
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.CImage {
+  height: 800px;
+}
+
+.arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 100%;
+  z-index: 9999;
+}
+
+.fa-arrow-left {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+}
+
+.fa-arrow-right {
+  position: absolute;
+  top: 40%;
+  right: 1%;
+ 
+}
+
+
+.two-sec{
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  margin-left: 10%;
+  gap : 5%
+}
+.two-sec .left{
+  width: 40%;
+}
+.two-sec .left img{
+  width: 100%;
+  height: auto;
+}
+.two-sec .right{
+  text-align: center;
+  padding-top: 10%;
+}
+.two-sec .right button{
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+/* Media Query  */
+@media (max-width: 768px) {
+  .MainNav .mid .fa-magnifying-glass {
+    top: 9%;
+    right: 26%;
+  }
+  .CImage{
+    height: 400px;
+  }
+}

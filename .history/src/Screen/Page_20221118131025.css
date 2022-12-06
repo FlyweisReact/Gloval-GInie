@@ -1,0 +1,8 @@
+.page{
+    background-image: url('../Assets/404-error-page-not-found.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 50vh;
+    
+}

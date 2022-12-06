@@ -1,0 +1,53 @@
+/** @format */
+
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Bag from "../Assets/Shopping Bag.png";
+
+
+const NavBar = () => {
+  const [side, setSide] = useState(false);
+  const navigate = useNavigate()
+  return (
+    <>
+      <div className="MainNav">
+        <div className="left">
+          <i class="fa-solid fa-bars" onClick={() => setSide(!side)}></i>
+        </div>
+        <div className="mid">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" />
+        </div>
+        <div className="right">
+          <img src={Bag} alt="Bag" />
+        </div>
+      </div>
+
+      {side ? (
+        <div className="sideBar" style={{ left: "100px" }}>
+          <ul>
+          }
+            <li>Gym</li>
+            <li>Perfume</li>
+            <li>Cosmetics</li>
+            <li>Technology</li>
+            <li>Home</li>
+          </ul>
+        </div>
+      ) : (
+        <div className="sideBar">
+          <ul>
+            <li>Care</li>
+            <li>Gym</li>
+            <li>Perfume</li>
+            <li>Cosmetics</li>
+            <li>Technology</li>
+            <li>Home</li>
+          </ul>
+        </div>
+      )}
+    </>
+  );
+};
+
+export default NavBar;
