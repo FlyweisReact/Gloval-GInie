@@ -2,6 +2,9 @@
 
 body {
   margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -134,7 +137,7 @@ code {
 .two-sec .right p {
   font-size: 1.4rem;
   font-weight: 200;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .two-sec .right h1 {
@@ -189,7 +192,7 @@ code {
   font-size: 0.8rem;
   float: left;
   margin-left: 4.1%;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .product {
@@ -217,7 +220,7 @@ code {
 }
 .desc2 {
   display: none;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .Review {
@@ -295,7 +298,7 @@ code {
 .images p {
   font-size: 0.8rem;
   max-width: 295px;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .many {
   display: flex;
@@ -500,7 +503,7 @@ input[type="date"] {
 }
 
 .human h3 {
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .SingleP {
@@ -557,7 +560,7 @@ input[type="date"] {
   float: left;
 }
 .SingleP .right .mid h2 {
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .SingleP .right .mid h3 {
   color: rgb(133, 122, 122);
@@ -603,7 +606,7 @@ input[type="date"] {
 
 .two-sec-form .left h3 {
   padding-top: 10%;
-  font-family: Nexa Bold PT Medium Oblique;
+  font-family: Futura PT Medium Oblique;
 }
 
 .back {
@@ -808,7 +811,7 @@ input[type="date"] {
 }
 .vegLogo .first p {
   font-size: 30px;
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-weight: medium;
 }
 
@@ -817,7 +820,7 @@ input[type="date"] {
 }
 .vegLogo .second p {
   font-size: 1.3rem;
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-weight: 200;
 }
 
@@ -896,7 +899,7 @@ input[type="date"] {
 .technI h6 {
   max-width: 80%;
   font-size: 1.4rem;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .ProductReviews {
@@ -947,7 +950,7 @@ input[type="date"] {
 }
 .OFC ul li p {
   width: 80%;
-  font-family: Nexa Bold ;
+  font-family: Futura !important;
   font-weight: 100 !important;
   font-size: 1.6rem;
 }
@@ -1044,11 +1047,11 @@ input[type="date"] {
 }
 .MyOrderTwoSec .left .desc h2 {
   font-size: 1.4rem;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .MyOrderTwoSec .left .desc p {
   max-width: 400px;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .MyOrderTwoSec .left .desc h6 {
   font-size: 1.5rem;
@@ -1062,7 +1065,7 @@ input[type="date"] {
   text-align: center;
 }
 .MyOrderTwoSec .left .return h3 {
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-size: 1.3rem;
   font-weight: bold;
 }
@@ -1071,7 +1074,7 @@ input[type="date"] {
   margin-top: 2%;
   padding: 10px;
   border-radius: 10px;
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-size: 1.2rem;
   color: #707070;
   border: 1px solid #707070;
@@ -1105,7 +1108,7 @@ input[type="date"] {
   margin-left: 20%;
   padding: 5px;
   font-size: 1.3rem;
-  font-family: Nexa Bold;
+  font-family: Futura;
   color: white;
   background-color: #a4a4a4;
   border: 1px solid #707070;
@@ -1130,7 +1133,7 @@ input[type="date"] {
   border: 1px solid black;
   padding: 50px;
   border-radius: 10px;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .ReturnCom .left .up {
   display: flex;
@@ -1154,7 +1157,7 @@ input[type="date"] {
   border-radius: 10px;
   border: 1px solid #707070;
   margin-bottom: 6%;
-  font-family: Nexa Bold;
+  font-family: Futura;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -1162,7 +1165,7 @@ input[type="date"] {
 
 .ReturnCom .right .up-p {
   font-size: 1.4rem;
-  font-family: Nexa Bold;
+  font-family: Futura;
   text-align: center;
 }
 
@@ -1182,7 +1185,7 @@ input[type="date"] {
   float: right;
   margin-right: 13%;
   margin-top: 5%;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .OrderSumSection {
@@ -1191,7 +1194,7 @@ input[type="date"] {
   margin-top: 5%;
   margin-right: 10%;
   justify-content: space-evenly;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .OrderSumSection .second {
   margin-top: 2%;
@@ -1207,7 +1210,7 @@ input[type="date"] {
   margin-top: 2%;
   padding: 10px;
   border-radius: 10px;
-  font-family: Nexa Bold;
+  font-family: Futura;
   color: white;
   background-color: #5a5a5a;
   /* background-color: #a4a4a4; */
@@ -1229,7 +1232,7 @@ input[type="date"] {
   padding-bottom: 5%;
 }
 .OrderSumInvoice h3 {
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-weight: bold;
 }
 .OrderSumInvoice h5 {
@@ -1329,7 +1332,7 @@ input[type="date"] {
 .shoppingTwoSec p {
   font-size: 1.4rem;
   margin-top: 4%;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .shoppingIndia {
@@ -1406,11 +1409,11 @@ input[type="date"] {
 }
 .OrderSummary .left .section .Under h5 {
   margin-top: 15%;
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-weight: bold;
 }
 .OrderSummary .left .section .Under p {
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-size: 1rem !important;
 }
 .spe {
@@ -1465,7 +1468,7 @@ input[type="date"] {
   border: 1px solid #7d7b7b;
   width: 40px;
   border-radius: 5px;
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-weight: bold;
 }
 /* -------------------------------------------------------------------- */
@@ -1650,7 +1653,7 @@ input[type="date"] {
 }
 .boxs2 h4 {
   margin-left: 10px;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .boxs2 h3 {
   background-color: #e5e5e5;
@@ -1751,13 +1754,13 @@ input[type="date"] {
   color: white;
   border: 1px solid black;
   border-radius: 10px;
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-weight: bold;
   margin-right: 5%;
 }
 
 .ProfileHidden h6 {
-  font-family: Nexa Bold;
+  font-family: Futura;
   margin-left: 5%;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -1783,7 +1786,7 @@ input[type="date"] {
   background-color: black;
   color: white;
   font-size: 1.3rem;
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-weight: lighter;
 }
 
@@ -1826,7 +1829,7 @@ input[type="date"] {
 .customerSerHead p {
   font-size: 1.8rem;
   font-weight: lighter;
-  font-family: Nexa Bold;
+  font-family: Futura;
   margin-top: 2%;
 }
 /* -------------------------------------------------------------------- */
@@ -1874,7 +1877,7 @@ input[type="date"] {
   font-size: 2rem;
   margin-left: 10%;
   margin-top: 5%;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 
 .facialAdd {
@@ -1997,7 +2000,7 @@ input[type="date"] {
   font-family: Monument;
 }
 .FAQ p {
-  font-family: Nexa Bold;
+  font-family: Futura;
   font-size: 1.6rem;
 }
 
@@ -2009,7 +2012,7 @@ input[type="date"] {
 .FAQInput input {
   width: 100%;
   padding: 20px;
-  font-family: Nexa Bold;
+  font-family: Futura;
   border-radius: 10px;
   font-size: 1.4rem;
   outline: none;
@@ -2055,7 +2058,7 @@ input[type="date"] {
 }
 .FAQtwosec .right .new {
   margin-top: 3%;
-  font-family: Nexa Bold;
+  font-family: Futura;
   display: flex;
   justify-content: space-between;
 }
@@ -2427,7 +2430,7 @@ input[type="date"] {
     margin-left: 20%;
     padding: 5px;
     font-size: 1.3rem;
-    font-family: Nexa Bold;
+    font-family: Futura;
     color: white;
     background-color: #a4a4a4;
     border: 1px solid #707070;
@@ -2703,7 +2706,7 @@ input[type="date"] {
 }
 .ModalChange div h6 {
   font-size: 1.6rem;
-  font-family: Nexa Bold;
+  font-family: Futura;
 }
 .ModalBtn {
   display: flex;

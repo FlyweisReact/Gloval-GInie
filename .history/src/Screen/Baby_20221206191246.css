@@ -16,7 +16,7 @@
   font-size: 2rem;
   color: #ccc;
   font-weight: 400;
-  font-family: Nexa Bold;
+  font-family: Ne;
 }
 
 .child {
@@ -36,7 +36,7 @@
   padding: 10px;
   cursor: pointer;
   transition: 0.5s;
-  font-family: Nexa Bold;
+  font-family: Ne;
 }
 
 .child .month:hover {
