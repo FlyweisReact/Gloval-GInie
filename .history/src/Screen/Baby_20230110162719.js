@@ -571,14 +571,14 @@ const Baby = () => {
 
 
       <div className="pro">
-        <h1>INTERNATIONAL BEST SELLERS</h1>
+        <h1>WHAT'S TRENDING</h1>
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
 
       <div className="NewProductS">
         <div className="item">
           <div className="imgeOuter">
-            <img src={img5} alt="" style={{width : '50%'}} />
+            <img src={Chair2} alt="" />
           </div>
           <p>
             Meta Quest 2 — Advanced All-In-One Virtual Reality
@@ -590,7 +590,7 @@ const Baby = () => {
         </div>
         <div className="item">
           <div className="imgeOuter">
-            <img src={img6} alt="" />
+            <img src={Chair} alt="" />
           </div>
           <p>
             Meta Quest 2 — Advanced All-In-One Virtual Reality
@@ -602,7 +602,7 @@ const Baby = () => {
         </div>
         <div className="item">
           <div className="imgeOuter">
-            <img src={img7} alt="" />
+            <img src={Milton} alt="" />
           </div>
           <p>
             Meta Quest 2 — Advanced All-In-One Virtual Reality
@@ -614,7 +614,7 @@ const Baby = () => {
         </div>
         <div className="item">
           <div className="imgeOuter">
-            <img src={img8} alt="" />
+            <img src={Toy} alt="" />
           </div>
           <p>
             Meta Quest 2 — Advanced All-In-One Virtual Reality
@@ -627,7 +627,7 @@ const Baby = () => {
       </div>
 
 
-      {/* <div className="pro" style={{ marginTop: "8%" }}>
+      <div className="pro" style={{ marginTop: "8%" }}>
         <h1>INTERNATIONAL BEST SELLERS</h1>
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
@@ -715,7 +715,7 @@ const Baby = () => {
           Headset — 128 GB <br />
           <soan>₹31,970.00</soan>
         </p>
-      </div> */}
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: " Monument" }}>
         RECENTLY VIEWED
@@ -745,18 +745,9 @@ const Baby = () => {
         </div>
       </div>
 
-      {/* <div className="Give">
+      <div className="Give">
         <img src={Give} alt="" />
-      </div> */}
-      <img
-        src={Give}
-        alt=""
-        style={{
-          width: "90%",
-          marginLeft: "5%",
-          marginBottom: "3%",
-        }}
-      />
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
         TALK TO HUMAN

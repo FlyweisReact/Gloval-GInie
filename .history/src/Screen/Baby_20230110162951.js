@@ -627,7 +627,7 @@ const Baby = () => {
       </div>
 
 
-      {/* <div className="pro" style={{ marginTop: "8%" }}>
+      <div className="pro" style={{ marginTop: "8%" }}>
         <h1>INTERNATIONAL BEST SELLERS</h1>
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
@@ -715,7 +715,7 @@ const Baby = () => {
           Headset — 128 GB <br />
           <soan>₹31,970.00</soan>
         </p>
-      </div> */}
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: " Monument" }}>
         RECENTLY VIEWED
@@ -745,18 +745,9 @@ const Baby = () => {
         </div>
       </div>
 
-      {/* <div className="Give">
+      <div className="Give">
         <img src={Give} alt="" />
-      </div> */}
-      <img
-        src={Give}
-        alt=""
-        style={{
-          width: "90%",
-          marginLeft: "5%",
-          marginBottom: "3%",
-        }}
-      />
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
         TALK TO HUMAN

@@ -516,7 +516,7 @@ input[type="date"] {
 /* Footer */
 .footer {
   width: 100%;
-  min-height: 120vh;
+  height: 120vh;
   max-height: 250vh;
   position: relative;
   bottom: 0 !important;

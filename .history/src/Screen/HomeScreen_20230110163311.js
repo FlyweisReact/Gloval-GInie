@@ -607,6 +607,7 @@ const HomeScreen = () => {
         style={{
           width: "90%",
           marginLeft: "5%",
+          marginTop: "3%",
           marginBottom: "3%",
         }}
       />

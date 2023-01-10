@@ -499,7 +499,7 @@ const Baby = () => {
 
             <div className="dives">
               <div className="imageDiv">
-                <img src={img3} alt="" />
+                <img src={Head} alt="" />
               </div>
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality Headset — 128
@@ -514,7 +514,7 @@ const Baby = () => {
         <ResBigCarousel />
       </div>
 
-      {/* <div className="pro" style={{ marginTop: "5%" }}>
+      <div className="pro" style={{ marginTop: "5%" }}>
         <h1>BEST DEAL'S</h1>
         <button className="shop" onClick={() => allProductNavigation()}>Shop Now</button>
       </div>
@@ -567,67 +567,9 @@ const Baby = () => {
           </div>
           <div></div>
         </div>
-      </div> */}
-
-
-      <div className="pro">
-        <h1>INTERNATIONAL BEST SELLERS</h1>
-        <button onClick={() => allProductNavigation()}>View all</button>
       </div>
 
-      <div className="NewProductS">
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={img5} alt="" style={{width : '50%'}} />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={img6} alt="" />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={img7} alt="" />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={img8} alt="" />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-      </div>
-
-
-      {/* <div className="pro" style={{ marginTop: "8%" }}>
+      <div className="pro" style={{ marginTop: "8%" }}>
         <h1>INTERNATIONAL BEST SELLERS</h1>
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
@@ -715,7 +657,7 @@ const Baby = () => {
           Headset — 128 GB <br />
           <soan>₹31,970.00</soan>
         </p>
-      </div> */}
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: " Monument" }}>
         RECENTLY VIEWED
@@ -745,18 +687,9 @@ const Baby = () => {
         </div>
       </div>
 
-      {/* <div className="Give">
+      <div className="Give">
         <img src={Give} alt="" />
-      </div> */}
-      <img
-        src={Give}
-        alt=""
-        style={{
-          width: "90%",
-          marginLeft: "5%",
-          marginBottom: "3%",
-        }}
-      />
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
         TALK TO HUMAN

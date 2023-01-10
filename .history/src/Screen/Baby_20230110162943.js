@@ -745,18 +745,9 @@ const Baby = () => {
         </div>
       </div>
 
-      {/* <div className="Give">
+      <div className="BanImage">
         <img src={Give} alt="" />
-      </div> */}
-      <img
-        src={Give}
-        alt=""
-        style={{
-          width: "90%",
-          marginLeft: "5%",
-          marginBottom: "3%",
-        }}
-      />
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
         TALK TO HUMAN

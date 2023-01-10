@@ -601,15 +601,7 @@ const HomeScreen = () => {
       {/* <div className="Give">
         <img src={Give} alt="" />
       </div> */}
-      <img
-        src={Give}
-        alt=""
-        style={{
-          width: "90%",
-          marginLeft: "5%",
-          marginBottom: "3%",
-        }}
-      />
+      <img src={Give} alt='' style={{width : '90%' , marginLeft : '5%' , marginTop : '3%' , marginBottom : '3%'}} />
 
       <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
         TALK TO HUMAN

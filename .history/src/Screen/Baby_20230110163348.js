@@ -627,7 +627,7 @@ const Baby = () => {
       </div>
 
 
-      {/* <div className="pro" style={{ marginTop: "8%" }}>
+      <div className="pro" style={{ marginTop: "8%" }}>
         <h1>INTERNATIONAL BEST SELLERS</h1>
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
@@ -715,7 +715,7 @@ const Baby = () => {
           Headset — 128 GB <br />
           <soan>₹31,970.00</soan>
         </p>
-      </div> */}
+      </div>
 
       <h1 style={{ textAlign: "center", fontFamily: " Monument" }}>
         RECENTLY VIEWED

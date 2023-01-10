@@ -454,10 +454,6 @@ code {
 .Give h2 {
   margin-top: 1%;
 }
-.Give img {
-  width: 90%;
-  margin-left: 5%;
-}
 ::-webkit-datetime-edit {
   padding: 10px;
 }
@@ -516,8 +512,8 @@ input[type="date"] {
 /* Footer */
 .footer {
   width: 100%;
-  min-height: 120vh;
-  max-height: 250vh;
+  height: 120vh;
+  max
   position: relative;
   bottom: 0 !important;
   color: #ffffff;
