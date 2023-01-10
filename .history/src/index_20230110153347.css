@@ -177,15 +177,10 @@ code {
   font-weight: 700;
   font-family: Nexa;
 }
-.pro button:hover{
-  background-color: #000000;
-  color: #fff;
-  transition: 0.5s;
-}
+
 .NewProductS {
   display: flex;
   width: 90%;
-  margin-bottom: 3%;
   gap: 20px;
   margin-left: 5%;
   justify-content: space-between;
@@ -208,8 +203,7 @@ code {
   padding: 20px;
 }
 .NewProductS .item p {
-  font-size: 16px;
-  font-family: Nexa;
+  font-size: 20px;
 }
 
 .myNewSec {

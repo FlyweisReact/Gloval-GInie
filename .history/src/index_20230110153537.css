@@ -177,11 +177,7 @@ code {
   font-weight: 700;
   font-family: Nexa;
 }
-.pro button:hover{
-  background-color: #000000;
-  color: #fff;
-  transition: 0.5s;
-}
+.pro button:ho
 .NewProductS {
   display: flex;
   width: 90%;

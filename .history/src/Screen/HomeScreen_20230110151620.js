@@ -1,33 +1,34 @@
 /** @format */
 
 import React from "react";
-import { Card } from "react-bootstrap";
-import Bud from "../Assets/61tE7IcuLmL._SL1500_.png";
-import Watch from "../Assets/71LKSq7g51L._AC_SL1500_.png";
+import Hero from "../Component/Hero";
+import Mask2 from "../Assets/Mask Group 2.png";
 import Cam from "../Assets/Canon EF 70-200mm f2.8L IS III USM Lens for Canon.png";
 import Carioke from "../Assets/Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 2933.png";
-import Mask2 from "../Assets/Mask Group 2.png";
-import Hero from "../Component/Hero";
+import Watch from "../Assets/71LKSq7g51L._AC_SL1500_.png";
+import Bud from "../Assets/61tE7IcuLmL._SL1500_.png";
+import { Card } from "react-bootstrap";
 import Reviews from "../Component/Reviews";
 
-import Game from "../Assets/719xFB+eo6L._SL1500_.png";
 import Camera2 from "../Assets/71cWQ3Yr8NL._AC_SL1500_.png";
 import Bag from "../Assets/71I8bdpX2UL._AC_SL1500_.png";
+import Game from "../Assets/719xFB+eo6L._SL1500_.png";
 import Head from "../Assets/818c8Lnb8GL._AC_SL1500_.png";
 import man from "../Assets/photographer-man-taking-photos-village.png";
 
-import gel from "../Assets/618-39BSrgL._SL1500_.png";
-import adi from "../Assets/adidas Stadium 750 ML (26oz) Plastic Water Bottle.png";
-import Apple from "../Assets/Apple Watch Series 7 (GPS, 45mm) Midnight.png";
+import Oil from "../Assets/Oil.png";
+import Hair from "../Assets/New 10.png";
 import some from "../Assets/Chicco Baby Moments Soft Cleansing Baby Wipes, Ideal for Nappy, Face and Hand, Dermatologically Tested, Paraben Free, Fliptop Pack.png";
 import clock from "../Assets/clock.png";
-import Hair from "../Assets/New 10.png";
+import Apple from "../Assets/Apple Watch Series 7 (GPS, 45mm) Midnight.png";
+import adi from "../Assets/adidas Stadium 750 ML (26oz) Plastic Water Bottle.png";
+import gel from "../Assets/618-39BSrgL._SL1500_.png";
 
 import Give from "../Assets/Get Me This.png";
 
-import Mail from "../Assets/Mail Icon.png";
-import phone from "../Assets/Phone call.png";
 import Whatsapp from "../Assets/Whatsapp icon.png";
+import phone from "../Assets/Phone call.png";
+import Mail from "../Assets/Mail Icon.png";
 import Footer from "../Component/Footer";
 
 import img from "../Images/Vitamin C 1.png";
@@ -69,59 +70,60 @@ const HomeScreen = () => {
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
 
-      <div className='NewProductS'>
-          <div className="item">
-            <div className="imgeOuter">
-              <img src={Cam} alt='' />
-              </div>
-              <p>
-                Meta Quest 2 — Advanced All-In-One Virtual Reality
-                <br />
-                Headset — 128 GB
-                <br />
-                <soan>₹31,970.00</soan>
-              </p>
+      <div className="fourSecc">
+        <div className="items">
+        <div className="Img">
+        <img src={Cam} alt="" />
+        </div>
+          <div>
+            <p>
+              Meta Quest 2 — Advanced All-In-One Virtual Reality
+              <br />
+              Headset — 128 GB
+              <br />
+              <soan>₹31,970.00</soan>
+            </p>{" "}
           </div>
-          <div className="item">
-            <div className="imgeOuter">
-              <img src={Carioke} alt='' />
-              </div>
-              <p>
-                Meta Quest 2 — Advanced All-In-One Virtual Reality
-                <br />
-                Headset — 128 GB
-                <br />
-                <soan>₹31,970.00</soan>
-              </p>
+        </div>
+        {/* <div className="items">
+          <img src={Cam} alt="" />
+          <div>
+            <p>
+              Meta Quest 2 — Advanced All-In-One Virtual Reality
+              <br />
+              Headset — 128 GB
+              <br />
+              <soan>₹31,970.00</soan>
+            </p>{" "}
           </div>
-          <div className="item">
-            <div className="imgeOuter">
-              <img src={Watch} alt='' />
-              </div>
-              <p>
-                Meta Quest 2 — Advanced All-In-One Virtual Reality
-                <br />
-                Headset — 128 GB
-                <br />
-                <soan>₹31,970.00</soan>
-              </p>
+        </div>
+        <div className="items">
+          <img src={Cam} alt="" />
+          <div>
+            <p>
+              Meta Quest 2 — Advanced All-In-One Virtual Reality
+              <br />
+              Headset — 128 GB
+              <br />
+              <soan>₹31,970.00</soan>
+            </p>{" "}
           </div>
-          <div className="item">
-            <div className="imgeOuter">
-              <img src={Bud} alt='' />
-              </div>
-              <p>
-                Meta Quest 2 — Advanced All-In-One Virtual Reality
-                <br />
-                Headset — 128 GB
-                <br />
-                <soan>₹31,970.00</soan>
-              </p>
+        </div>
+        <div className="items">
+          <img src={Cam} alt="" />
+          <div>
+            <p>
+              Meta Quest 2 — Advanced All-In-One Virtual Reality
+              <br />
+              Headset — 128 GB
+              <br />
+              <soan>₹31,970.00</soan>
+            </p>{" "}
           </div>
+        </div> */}
       </div>
 
-     
-      {/* <div className="product">
+      <div className="product">
         <Card
           className="ProductCard"
           onClick={() => NavigationHandler("/single")}
@@ -252,7 +254,7 @@ const HomeScreen = () => {
           Headset — 128 GB <br />
           <soan>₹31,970.00</soan>
         </p>
-      </div> */}
+      </div>
 
       <hr
         style={{

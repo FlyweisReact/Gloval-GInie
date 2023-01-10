@@ -70,6 +70,7 @@ const HomeScreen = () => {
       </div>
 
       <div className='NewProductS'>
+        <div className="group">
           <div className="item">
             <div className="imgeOuter">
               <img src={Cam} alt='' />
@@ -84,7 +85,7 @@ const HomeScreen = () => {
           </div>
           <div className="item">
             <div className="imgeOuter">
-              <img src={Carioke} alt='' />
+              <img src={Cam} alt='' />
               </div>
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality
@@ -96,7 +97,7 @@ const HomeScreen = () => {
           </div>
           <div className="item">
             <div className="imgeOuter">
-              <img src={Watch} alt='' />
+              <img src={Cam} alt='' />
               </div>
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality
@@ -108,7 +109,7 @@ const HomeScreen = () => {
           </div>
           <div className="item">
             <div className="imgeOuter">
-              <img src={Bud} alt='' />
+              <img src={Cam} alt='' />
               </div>
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality
@@ -118,10 +119,11 @@ const HomeScreen = () => {
                 <soan>₹31,970.00</soan>
               </p>
           </div>
+        </div>
       </div>
 
      
-      {/* <div className="product">
+      <div className="product">
         <Card
           className="ProductCard"
           onClick={() => NavigationHandler("/single")}
@@ -252,7 +254,7 @@ const HomeScreen = () => {
           Headset — 128 GB <br />
           <soan>₹31,970.00</soan>
         </p>
-      </div> */}
+      </div>
 
       <hr
         style={{

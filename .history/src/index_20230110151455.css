@@ -177,40 +177,20 @@ code {
   font-weight: 700;
   font-family: Nexa;
 }
-.pro button:hover{
-  background-color: #000000;
-  color: #fff;
-  transition: 0.5s;
-}
-.NewProductS {
+.fourSecc{
   display: flex;
   width: 90%;
-  margin-bottom: 3%;
-  gap: 20px;
   margin-left: 5%;
   justify-content: space-between;
 }
-
-.NewProductS .item .imgeOuter {
-  position: relative;
+.fourSecc .items{
+  width: 20%;
+}
+.fourSecc .items img{
   border: 1px solid #c2c2c2;
-  width: 100%;
-  height: 350px;
+  width: ;
 }
-.NewProductS .item .imgeOuter img {
-  position: absolute;
-  width: 70%;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  padding: 20px;
-}
-.NewProductS .item p {
-  font-size: 16px;
-  font-family: Nexa;
-}
+
 
 .myNewSec {
   margin-top: 3%;
@@ -253,41 +233,49 @@ code {
 .myNewOldSec .left {
   width: 50%;
 }
-.myNewOldSec .right {
+.myNewOldSec .right{
   margin: auto auto;
   width: 40%;
 }
-.myNewOldSec .left img {
+.myNewOldSec .left img{
   height: 100%;
   width: 100%;
 }
 .myNewOldSec .right .group {
-  display: flex;
-  justify-content: space-between;
-  gap: 5rem;
+ display: flex ;
+ justify-content: space-between;
+ gap : 5rem ;
 }
-.myNewOldSec .right .group .dives {
+.myNewOldSec .right .group  .dives{
   width: 50%;
 }
 .myNewOldSec .right .group p {
   font-family: Nexa Bold;
 }
-.imageDiv {
+.imageDiv{
   border: 1px solid #c2c2c2;
   width: 100%;
   height: 350px;
   min-height: 300px;
   position: relative;
 }
-.imageDiv img {
-  width: 90%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+.imageDiv img{
+ width: 90%;
+ position: absolute;
+ top: 0; bottom: 0; left: 0; right: 0;
+ margin: auto;
+
 }
+
+
+
+
+
+
+
+
+
+
 
 .myNewOldSec .right .group p {
   max-width: 300px;
@@ -2892,34 +2880,40 @@ input[type="date"] {
   display: none;
 }
 
-.resBigC {
+
+
+
+
+.resBigC{
   width: 80%;
-  margin-left: 10%;
-  height: 400px;
+ margin-left: 10%;
+ height: 400px;
 }
 
-@media (max-width: 1200px) {
-  .resBigDealCarousel {
+
+
+@media (max-width : 1200px) {
+  .resBigDealCarousel{
     display: block !important;
   }
-  .myNewOldSec {
+  .myNewOldSec{
     display: none;
   }
 }
 
-.resBigDealCarousel {
+.resBigDealCarousel{
   display: none;
 }
 
-.carouselCOn {
+.carouselCOn{
   width: 600px;
   height: auto;
   display: block;
   margin: auto;
   margin-top: 5%;
 }
-.carouselCOn .all {
-  width: 300px !important ;
+.carouselCOn .all{
+  width:300px !important ;
   position: absolute;
   top: 0;
   left: 0;

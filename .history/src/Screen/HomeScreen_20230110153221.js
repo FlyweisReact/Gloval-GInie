@@ -121,7 +121,7 @@ const HomeScreen = () => {
       </div>
 
      
-      {/* <div className="product">
+      <div className="product">
         <Card
           className="ProductCard"
           onClick={() => NavigationHandler("/single")}
@@ -252,7 +252,7 @@ const HomeScreen = () => {
           Headset — 128 GB <br />
           <soan>₹31,970.00</soan>
         </p>
-      </div> */}
+      </div>
 
       <hr
         style={{

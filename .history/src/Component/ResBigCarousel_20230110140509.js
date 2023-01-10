@@ -31,11 +31,11 @@ const ResBigCarousel = () => {
     <>
       <Carousel autoPlay  showThumbs={false} infiniteLoop className="carouselCOn">
         <div>
-          <img src={man} alt="" className="first"  />
+          <img src={man} alt=""   />
         </div>
         {images.map((i, index) => (
-          <div key={index}  className='upperDivv'>
-            <img src={i.src} alt=""  className="all" />
+          <div key={index} >
+            <img src={i.src} alt=""  />
           </div>
         ))}
       </Carousel>

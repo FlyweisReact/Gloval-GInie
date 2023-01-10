@@ -34,8 +34,8 @@ const ResBigCarousel = () => {
           <img src={man} alt="" className="first"  />
         </div>
         {images.map((i, index) => (
-          <div key={index}  className='upperDivv'>
-            <img src={i.src} alt=""  className="all" />
+          <div key={index} >
+            <img src={i.src} alt=""  />
           </div>
         ))}
       </Carousel>
