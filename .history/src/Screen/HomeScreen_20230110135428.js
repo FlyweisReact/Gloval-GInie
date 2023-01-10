@@ -271,7 +271,7 @@ const HomeScreen = () => {
         </div>
         <div className="right">
           <div className="group">
-            <div  className="dives">
+            <div>
               <div className="imageDiv">
                 <img src={Bag} alt="" />
               </div>
@@ -281,7 +281,7 @@ const HomeScreen = () => {
               </p>
             </div>
 
-            <div  className="dives">
+            <div>
               <div className="imageDiv">
                 <img src={Camera2} alt="" />
               </div>
@@ -303,7 +303,7 @@ const HomeScreen = () => {
               </p>
             </div>
 
-            <div className="dives">
+            <div  className="dives">
               <div className="imageDiv">
                 <img src={Head} alt="" />
               </div>

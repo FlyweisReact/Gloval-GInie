@@ -281,7 +281,7 @@ const HomeScreen = () => {
               </p>
             </div>
 
-            <div  className="dives">
+            <div>
               <div className="imageDiv">
                 <img src={Camera2} alt="" />
               </div>
