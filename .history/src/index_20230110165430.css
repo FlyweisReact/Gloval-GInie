@@ -519,7 +519,6 @@ input[type="date"] {
   color: #ffffff;
   background-image: url("./Assets/Footer.png");
   position: relative;
-  height: 100%;
 }
 .footer .ex{
   font-size: 20px;

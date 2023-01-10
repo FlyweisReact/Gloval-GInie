@@ -519,7 +519,6 @@ input[type="date"] {
   color: #ffffff;
   background-image: url("./Assets/Footer.png");
   position: relative;
-  height: 100%;
 }
 .footer .ex{
   font-size: 20px;
@@ -563,11 +562,9 @@ input[type="date"] {
 .footer .t-p .last-Icon{
   display: flex;
   gap: 20px;
-  padding-bottom: 1%;
 }
 .footer .t-p .last-Icon img{
-  width: 30px;
-  height: 30px;
+  
 }
 .footer {
   /* width: 100%; */

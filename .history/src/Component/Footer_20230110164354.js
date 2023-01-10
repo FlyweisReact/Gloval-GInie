@@ -15,7 +15,7 @@ const Footer = () => {
     <>
       <div className="footer">
      
-        <p className="ex">For best experince , download theglobalgenie app</p>
+        <p>For best experince , download theglobalgenie app</p>
         <div className="Foo-Icon">
           <img src={Apple} alt="" />
           <img src={Robot} alt="" />

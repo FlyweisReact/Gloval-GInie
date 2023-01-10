@@ -14,15 +14,15 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-     
-        <p className="ex">For best experince , download theglobalgenie app</p>
+      <div className="Main-Img">
+          <img src={Mid} alt='' />
+        </div>
+        <p>For best experince , download theglobalgenie app</p>
         <div className="Foo-Icon">
           <img src={Apple} alt="" />
           <img src={Robot} alt="" />
         </div>
-        <div className="Main-Img">
-          <img src={Mid} alt='' />
-        </div>
+
         <div className="menu">
           <ul>
             <li>ABOUT US</li>
