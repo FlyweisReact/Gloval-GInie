@@ -511,62 +511,6 @@ const HomeScreen = () => {
         </p>
       </div> */}
 
-      <div className="pro">
-        <h1>INTERNATION BEST SELLERS</h1>
-        <button onClick={() => allProductNavigation()}>View all</button>
-      </div>
-
-      <div className="NewProductS">
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Cam} alt="" />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Carioke} alt="" />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Watch} alt="" />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Bud} alt="" />
-          </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-      </div>
-
       <h1
         style={{ textAlign: "center", fontFamily: "Monument" }}
         className="forRes"

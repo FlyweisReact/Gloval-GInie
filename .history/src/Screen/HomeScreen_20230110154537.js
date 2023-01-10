@@ -512,7 +512,7 @@ const HomeScreen = () => {
       </div> */}
 
       <div className="pro">
-        <h1>INTERNATION BEST SELLERS</h1>
+        <h1>WHAT'S TRENDING</h1>
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
 
