@@ -521,10 +521,6 @@ input[type="date"] {
   background-position: center;
   background-size: cover;
 }
-.footer .footer-div{
-  bottom: 0;
-  position:sticky;
-}
 
 .footer p {
   font-weight: 100;

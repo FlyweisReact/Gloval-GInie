@@ -46,9 +46,10 @@ const HomeScreen = () => {
     navigate(data);
   }
 
+
   useEffect(() => {
-    window.scrollTo(0, 0);
-  });
+    
+  })
 
   return (
     <>
@@ -73,57 +74,58 @@ const HomeScreen = () => {
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
 
-      <div className="NewProductS">
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Cam} alt="" />
+      <div className='NewProductS'>
+          <div className="item">
+            <div className="imgeOuter">
+              <img src={Cam} alt='' />
+              </div>
+              <p>
+                Meta Quest 2 — Advanced All-In-One Virtual Reality
+                <br />
+                Headset — 128 GB
+                <br />
+                <soan>₹31,970.00</soan>
+              </p>
           </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Carioke} alt="" />
+          <div className="item">
+            <div className="imgeOuter">
+              <img src={Carioke} alt='' />
+              </div>
+              <p>
+                Meta Quest 2 — Advanced All-In-One Virtual Reality
+                <br />
+                Headset — 128 GB
+                <br />
+                <soan>₹31,970.00</soan>
+              </p>
           </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Watch} alt="" />
+          <div className="item">
+            <div className="imgeOuter">
+              <img src={Watch} alt='' />
+              </div>
+              <p>
+                Meta Quest 2 — Advanced All-In-One Virtual Reality
+                <br />
+                Headset — 128 GB
+                <br />
+                <soan>₹31,970.00</soan>
+              </p>
           </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
-        <div className="item">
-          <div className="imgeOuter">
-            <img src={Bud} alt="" />
+          <div className="item">
+            <div className="imgeOuter">
+              <img src={Bud} alt='' />
+              </div>
+              <p>
+                Meta Quest 2 — Advanced All-In-One Virtual Reality
+                <br />
+                Headset — 128 GB
+                <br />
+                <soan>₹31,970.00</soan>
+              </p>
           </div>
-          <p>
-            Meta Quest 2 — Advanced All-In-One Virtual Reality
-            <br />
-            Headset — 128 GB
-            <br />
-            <soan>₹31,970.00</soan>
-          </p>
-        </div>
       </div>
 
+     
       {/* <div className="product">
         <Card
           className="ProductCard"

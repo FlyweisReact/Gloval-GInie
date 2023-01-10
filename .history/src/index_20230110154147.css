@@ -514,16 +514,13 @@ input[type="date"] {
 .footer {
   width: 100%;
   min-height: 120vh;
-  position: relative;
+  position: fixed;
+  bottom: 0;
   color: #ffffff;
   background-image: url("./Assets/Footer.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.footer .footer-div{
-  bottom: 0;
-  position:sticky;
 }
 
 .footer p {

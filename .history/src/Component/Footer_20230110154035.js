@@ -14,9 +14,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-      <div className="footer-div">
-
-    
+      <div
         <p>For best experince , download theglobalgenie app</p>
         <div className="Foo-Icon">
           <img src={Apple} alt="" />
@@ -44,7 +42,6 @@ const Footer = () => {
             <img src={Insta} alt="" />
             <img src={Twit} alt="" />
           </div>
-        </div>
         </div>
       </div>
     </>

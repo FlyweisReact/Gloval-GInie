@@ -522,8 +522,7 @@ input[type="date"] {
   background-size: cover;
 }
 .footer .footer-div{
-  bottom: 0;
-  position:sticky;
+  position: absolute;
 }
 
 .footer p {

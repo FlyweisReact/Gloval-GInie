@@ -45,7 +45,6 @@ const Footer = () => {
             <img src={Twit} alt="" />
           </div>
         </div>
-        </div>
       </div>
     </>
   );
