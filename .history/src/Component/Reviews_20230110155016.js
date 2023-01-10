@@ -21,32 +21,33 @@ const Reviews = () => {
     <>
       <Carousel
         autoPlay
-        className="ImageCarousel"
+        className="ReviewCarousel"
         showThumbs={false}
         infiniteLoop
-        renderArrowPrev={(clickHandler, hasNext) => {
-          return (
-            hasNext && (
-              <i
-                className="fa-solid fa-arrow-left arrow"
-                onClick={clickHandler}
-              ></i>
-            )
-          );
-        }}
-        renderArrowNext={(clickHandler, hasNext) => {
-          return (
-            hasNext && (
-              <i
-                className="fa-solid fa-arrow-right arrow"
-                onClick={clickHandler}
-              ></i>
-            )
-          );
-        }}
+        // renderArrowPrev={(clickHandler, hasNext) => {
+        //   return (
+        //     hasNext && (
+        //       <i
+        //         className="fa-solid fa-arrow-left arrow"
+        //         onClick={clickHandler}
+        //       ></i>
+        //     )
+        //   );
+        // }}
+        // renderArrowNext={(clickHandler, hasNext) => {
+        //   return (
+        //     hasNext && (
+        //       <i
+        //         className="fa-solid fa-arrow-right arrow"
+        //         onClick={clickHandler}
+        //       ></i>
+        //     )
+        //   );
+        // }}
       >
         {images.map((i, index) => (
-          <div key={index}>
+          <div key={index} style={{marginBottom : '10%' '}}>
+          <h2>CUSTOMER REVIEWS</h2>
             <div className="Review">
               <img src={Rating} alt="" className="Review" />
             </div>
@@ -57,9 +58,9 @@ const Reviews = () => {
               </p>
             </div>
             <div className="ReviewImage">
-              <img src={User} alt="" /> - <span>
-                Ritu Kaur
-              </span>
+              <div className="new">
+                <img src={User} alt="" /> <p >- Ritu Kaur</p>
+              </div>
             </div>
           </div>
         ))}
