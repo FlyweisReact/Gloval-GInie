@@ -191,7 +191,9 @@ const HomeScreen = () => {
         </div>
       </div>
 
-  
+      <div className="resBigDealCarousel">
+        <ResBigCarousel />
+      </div>
 
       <div className="pro">
         <h1>INTERNATION BEST SELLERS</h1>
@@ -292,7 +294,7 @@ const HomeScreen = () => {
       </h1>
   
 
-      <table style={{ margin: "auto" , width : '700px' , textAlign : 'center' , marginTop : '3%' , marginBottom : '3%' , fontSize : '23px' }}>
+      <table style={{ margin: "auto" , width : '700px' , textAlign : 'center' , marginTop : '' }}>
         <tr>
           <td style={{borderRight : '1px solid black'}}>
             {" "}

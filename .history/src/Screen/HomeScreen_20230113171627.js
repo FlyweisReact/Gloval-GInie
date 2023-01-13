@@ -25,7 +25,7 @@ import newImg8 from "../Images/bag.png";
 import newImg9 from "../Images/camera.png";
 import newImg10 from "../Images/controller.png";
 import newImg11 from "../Images/headphone.png";
-import newImg12 from "../Images/Get Me This 1.png";
+import newImg12 from '../Images/Get Me This 1.png'
 
 const HomeScreen = () => {
   const navigate = useNavigate();
@@ -122,7 +122,7 @@ const HomeScreen = () => {
           margin: "auto",
           border: "2px solid black",
         }}
-        className="myHr"
+        className='myHr'
       />
 
       <Reviews />
@@ -132,7 +132,7 @@ const HomeScreen = () => {
           maxWidth: "1400px",
           margin: "auto",
         }}
-        className="myHr"
+        className='myHr'
       />
 
       <div className="pro" style={{ marginTop: "5%" }}>
@@ -191,7 +191,9 @@ const HomeScreen = () => {
         </div>
       </div>
 
-  
+      <div className="resBigDealCarousel">
+        <ResBigCarousel />
+      </div>
 
       <div className="pro">
         <h1>INTERNATION BEST SELLERS</h1>
@@ -280,40 +282,31 @@ const HomeScreen = () => {
         </div>
       </div>
 
-      <div className="BanImage">
-        <img src={newImg12} alt="" />
-      </div>
+        <div className="BanImage">
+        <img src={newImg12} alt=""  />
 
-      <h1
-        style={{ textAlign: "center", fontFamily: "Monument" }}
-        className="forRes"
-      >
+        </div>
+
+      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
         TALK TO HUMAN
       </h1>
-  
+      <div className="human">
+        <div>
+          <img src={phone} alt="" />
+          <h3>PHONE</h3>
+        </div>
+        <div className="Hori"></div>
+        <div>
+          <img src={Mail} alt="" />
+          <h3>EMAIL US</h3>
+        </div>
+        <div className="Hori"></div>
 
-      <table style={{ margin: "auto" , width : '700px' , textAlign : 'center' , marginTop : '3%' , marginBottom : '3%' , fontSize : '23px' }}>
-        <tr>
-          <td style={{borderRight : '1px solid black'}}>
-            {" "}
-            <img src={phone} alt="" style={{ width: "80px"  }} />
-          </td>
-          <td style={{borderRight : '1px solid black'}}>
-            {" "}
-            <img src={Mail} alt="" style={{ width: "80px" }} />
-          </td>
-          <td>
-            {" "}
-            <img src={Whatsapp} alt="" style={{ width: "80px" }} />
-          </td>
-        </tr>
-        <tr>
-          <td>PHONE</td>
-          <td>EMAIL US</td>
-          <td>WHATSAPP US</td>
-        </tr>
-      </table>
-
+        <div>
+          <img src={Whatsapp} alt="" />
+          <h3>WHATSAPP US</h3>
+        </div>
+      </div>
       <Footer />
     </>
   );

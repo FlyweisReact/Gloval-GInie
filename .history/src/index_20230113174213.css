@@ -2226,7 +2226,614 @@ input[type="date"] {
 }
 
 /* Media Query  */
+@media (max-width: 768px) {
+  .MainNav .mid .fa-magnifying-glass {
+    margin-left: 50%;
+  }
+  .MainNav .left {
+    margin-left: 10px;
+  }
+  .CImage {
+    height: 400px;
+  }
+  .two-sec {
+    display: block;
+  }
+  .two-sec .left {
+    width: 100%;
+    padding: 10px;
+  }
+  .two-sec .right {
+    width: 100%;
+  }
+  .pro {
+    display: block;
+    margin-top: 8%;
+  }
+  .pro h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .pro button {
+    width: 80%;
+    margin-top: 3% !important;
+    display: block;
+    margin: auto;
+  }
+  .pro .right button {
+    margin-top: 5%;
+    width: 60%;
+    display: block;
+    margin-left: 10%;
+    float: none;
+    font-size: 1.5rem;
+  }
+  .product {
+    display: block;
+  }
+  .camera {
+    position: inherit;
+  }
+  .carioke {
+    position: inherit;
+  }
+  .ProductCard {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .Desc {
+    display: none;
+  }
+  .desc2 {
+    display: block;
+    width: 20rem;
+    margin: auto;
+  }
+  .customerR p {
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    /* margin-left: 12%; */
+  }
+  .photo {
+    display: block;
+  }
+  .photo .left {
+    width: 90%;
+  }
+  .photo .left img {
+    margin-left: 5%;
+  }
+  .photo .right .up {
+    display: block;
+    margin-top: 5% !important;
+    margin: auto;
+  }
+  .photo .right .up .images {
+    /* margin-left: 5%;
+     */
+    display: block;
+    margin: auto;
+  }
+  .photo .right .up .images img {
+    display: block;
+    margin: auto;
+  }
+  .photo .right .up .images p {
+    text-align: center;
+  }
+  .many {
+    display: none;
+  }
+  .forRes {
+    display: none;
+  }
+  /* .many img {
+    display: block;
+    margin: auto;
+  } */
+  #app {
+    margin: auto;
+  }
+  #clock {
+    margin: auto;
+  }
+  .human {
+    display: block;
+    margin: auto;
+    margin-top: 2% !important ;
+  }
+  .Hori {
+    display: none;
+  }
+  .human img {
+    display: block;
+    margin: auto;
+    margin-top: 0 !important;
+  }
+  .human h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5%;
+  }
+  .human div {
+    margin-top: 50px;
+  }
+  .footer p {
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .footer .menu {
+    float: none;
+    text-align: center;
+  }
+  .footer .menu ul li {
+    text-align: center;
+    font-weight: 500;
+    padding-right: 0;
+    padding-top: 2rem;
+  }
+  .t-p {
+    margin-top: 30%;
+  }
+  .Foo-Icon {
+    margin-left: 40%;
+    margin-top: 2%;
+  }
+  .last-Icon {
+    margin-left: 40%;
+    margin-top: 3%;
+  }
 
+  .SingleP {
+    display: block;
+  }
+  .BP {
+    display: none;
+  }
+  .right .left {
+    position: absolute;
+    top: 200px;
+    right: 0;
+  }
+  .right {
+    text-align: center;
+  }
+  .mid {
+    margin-bottom: 5%;
+  }
+
+  .two-sec-form {
+    display: block;
+  }
+  .two-sec-form .left {
+    width: 100%;
+  }
+  .two-sec-form .left .BMI {
+    margin-left: 10%;
+  }
+  .BMIbutton {
+    margin-bottom: 5%;
+  }
+  .two-sec-form img {
+    width: 100%;
+    padding: 10px;
+  }
+  #Gamers {
+    height: 500px;
+  }
+  #FileBtn {
+    width: 150px;
+    font-size: 18px;
+    margin-top: 300px;
+    margin-left: 168px;
+  }
+  .men-b {
+    display: block;
+  }
+  .men-b .left {
+    width: 100%;
+  }
+
+  .men-b .left .nap {
+    margin-bottom: 10px;
+  }
+  .men-b .right {
+    width: 100%;
+  }
+  .men-b .right img {
+    width: 100%;
+  }
+  .gym-B {
+    display: block;
+  }
+  .gym-B .left {
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  .gym-B .right {
+    width: 100%;
+  }
+  .gym-B .right img {
+    width: 100%;
+  }
+  .Syrup {
+    display: block;
+    overflow: hidden;
+  }
+  .Syrup .ImagesS {
+    width: 400px;
+    height: 400px;
+  }
+  .plus {
+    padding: 0;
+    margin-left: 35%;
+  }
+  .amount {
+    margin-left: 20%;
+  }
+  .amount h3 {
+    padding-left: 10%;
+  }
+  #OFFC {
+    width: 100% !important;
+  }
+  .nav-Images {
+    display: block;
+    margin: auto;
+  }
+  .nav-Images img {
+    width: 100px;
+  }
+  .nav-Images div {
+    margin-top: 20px;
+    display: block;
+    margin-left: 20%;
+  }
+  .TB {
+    width: 90%;
+  }
+  .TB .left {
+    width: 50%;
+  }
+  .TB .right {
+    width: 50%;
+  }
+  .amazon {
+    margin-left: 0 !important;
+    display: block;
+  }
+  .amazon h2 {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+  .amazon img {
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-top: 5% !important;
+  }
+
+  .MyOrderTwoSec .right {
+    display: none;
+  }
+  .MyOrderTwoSec {
+    margin-left: 20%;
+    margin-right: 0;
+  }
+  .MyOrderHead h1 {
+    font-size: 2rem;
+    margin-left: 14%;
+    margin-top: 10%;
+  }
+  .MyOrderTwoSec .left p {
+    width: 100%;
+  }
+  .MyOrderFour h3 {
+    font-size: 1.2rem;
+  }
+  .MyOrderPlaced h2 {
+    font-size: 1.5rem;
+    margin-top: 3%;
+  }
+  .MyOrderTwoSec .left {
+    display: block;
+  }
+  .MyOrderhrNew {
+    width: 80% !important;
+  }
+  .MyOrderTwoSec .left input {
+    width: 30px;
+    height: 30px;
+  }
+  .MyOrderTwoSec .left .return {
+    margin-left: 0;
+  }
+  .MyOrderTwoSec .left .return select {
+    width: 100%;
+  }
+  .MyOrder2 {
+    display: block !important;
+  }
+  .MyOrder2 button {
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 20%;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: Nexa Bold;
+    color: white;
+    background-color: #a4a4a4;
+    border: 1px solid #707070;
+    border-radius: 10px;
+  }
+  .MyOrder2 div {
+    margin-left: 13%;
+  }
+  .OrderSumSection {
+    display: block;
+    text-align: center;
+  }
+  .OrderSumInvoice {
+    display: block;
+    text-align: center;
+  }
+  .OrderSumInvoice .right {
+    display: flex;
+    gap: 10px;
+    margin-left: 5%;
+  }
+  .OrderSum {
+    float: none;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .OrderSumInvoice .mid div {
+    display: block;
+    margin: auto;
+  }
+  .shoppingTwoSec {
+    display: block;
+    margin-top: 8%;
+    text-align: center;
+  }
+  .shoppingImage {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 5% !important;
+  }
+  .shoppingImage img {
+    width: 100%;
+  }
+  .shoppingTrack {
+    width: 80%;
+  }
+  .OrderSummary .left {
+    width: 100%;
+    text-align: center;
+    /* display: block; */
+  }
+  .OrderSummary .left .section .Under {
+    display: block;
+  }
+  .OrderSummary .right {
+    display: none;
+  }
+  .OrderSummaryDropDown {
+    display: block !important;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5% !important;
+    padding: 10px;
+  }
+  .OrderSummaryDropDown .upper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .OrderSummaryDropDown button {
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: Nexa;
+    font-weight: bold;
+  }
+
+  .OrderSummary .left .LeftForm {
+    text-align: left;
+  }
+
+  .OrderSummary .left .LeftForm button {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .QTY div {
+    margin-right: 0 !important;
+    margin-left: 25%;
+    margin-top: 4%;
+  }
+  .ReturnRefund div {
+    display: block;
+    margin-left: 0;
+  }
+
+  .ReturnRefund button {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 0;
+  }
+  .ReturnRefund input {
+    width: 80%;
+  }
+  .StatusRefundTwoSec {
+    display: block;
+    text-align: center;
+  }
+  .StatusRefundBox {
+    display: block;
+  }
+  .StatusRefundBox .left .second .Fir .Second {
+    display: block;
+  }
+  .MyOrderHead .SS {
+    margin-left: 10px !important;
+  }
+
+  .MyOrderHead .SS div input {
+    width: 200px !important;
+  }
+  .your-add-threeSec {
+    display: block;
+  }
+  .your-add-threeSec div {
+    display: block;
+    margin: auto;
+    margin-top: 5% !important;
+    height: 20rem;
+  }
+  .your-add-threeSec .mid .DownBTns {
+    display: block;
+    margin: none;
+    margin-top: 0 !important             ;
+  }
+  .your-add-threeSec .mid .DownBTns div {
+    display: none;
+  }
+  .profileEdit .big .dwn div {
+    display: block;
+  }
+  .profileEdit .big .dwn div p {
+    font-size: 1.2rem !important;
+  }
+  #Hidden img {
+    margin-left: 80% !important;
+  }
+  #Hidden div {
+    display: block;
+    margin: auto;
+  }
+  #Hidden div button {
+    margin-top: 2%;
+  }
+  #email div {
+    display: block;
+  }
+  #email div input {
+    width: 70% !important;
+  }
+  #email div button {
+    margin-top: 2%;
+  }
+  #email .upper {
+    display: flex;
+    margin-right: 0;
+    width: 80%;
+  }
+  #email .upper h6 {
+    margin-top: 15%;
+  }
+  .shoppingTrackBtn {
+    display: block;
+  }
+  .shoppingTrackBtn button {
+    margin-top: 2%;
+  }
+  .returnRefundPdiv2 p {
+    width: 80%;
+    text-align: left;
+    font-size: 1.4rem;
+  }
+  .returnRefundPdiv {
+    width: 80%;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .facialTwosec {
+    display: block;
+  }
+  .facialTwosec .left {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+  .facialTwosec .right {
+    text-align: left;
+  }
+  .facialThreeImg {
+    display: block;
+  }
+  .facialThreeImg div {
+    width: 100%;
+  }
+  .facialThreeSec {
+    display: block;
+    margin-bottom: 5% !important;
+  }
+  .facialThreeSec div {
+    display: none;
+  }
+  .ResFacial {
+    text-align: center;
+    margin-bottom: 5%;
+    display: block !important;
+  }
+
+  .FAQInput {
+    width: 80%;
+  }
+
+  .FAQInput input {
+    width: 100%;
+  }
+  .FAQInput img {
+    margin-left: 70%;
+  }
+
+  .FAQtwosec {
+    display: block;
+  }
+  .FAQtwosec .left {
+    width: 100%;
+  }
+  .FAQtwosec .left ul li {
+    text-align: center;
+  }
+  #forHide {
+    display: none;
+  }
+  .FAQtwosec .right {
+    width: 100%;
+    margin-top: 15%;
+    text-align: left;
+  }
+  .ReturnCom {
+    display: block;
+  }
+  .ReturnCom .left {
+    width: 100%;
+  }
+  .ReturnCom .right {
+    width: 100%;
+    margin-top: 9%;
+  }
+  #MyFormNew {
+    margin-left: 10%;
+  }
+}
 
 .ModalChange div {
   text-align: center;
@@ -2303,7 +2910,14 @@ input[type="date"] {
   height: 400px;
 }
 
-
+@media (max-width: 1200px) {
+  .resBigDealCarousel {
+    display: block !important;
+  }
+  .myNewOldSec {
+    display: none;
+  }
+}
 
 .resBigDealCarousel {
   display: none;
@@ -2424,26 +3038,14 @@ input[type="date"] {
     max-width: 800px;
   }
   .NewProductS .item .imgeOuter{
-    height: 200px;
-  }
-  .myHr{
-    max-width: 800px !important;
+    height: 2500px;
   }
   .myNewSec {
     max-width: 800px;
   }
   .myNewOldSec {
     max-width: 800px;
-    display: block !important;
   }
-  .myNewOldSec .left{
-    width: 100%;
-    height: 400px;
-  }
-  .myNewOldSec .right {
-    width: 100%;
-    margin-top: 2%;
-    }
   .many {
     max-width: 800px;
   }

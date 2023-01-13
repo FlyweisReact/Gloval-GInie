@@ -191,7 +191,9 @@ const HomeScreen = () => {
         </div>
       </div>
 
-  
+      <div className="resBigDealCarousel">
+        <ResBigCarousel />
+      </div>
 
       <div className="pro">
         <h1>INTERNATION BEST SELLERS</h1>
@@ -290,29 +292,27 @@ const HomeScreen = () => {
       >
         TALK TO HUMAN
       </h1>
-  
+      <div className="human">
+        <div>
+          <img src={phone} alt="" />
+        </div>
+        <div className="Hori"></div>
+        <div>
+          <img src={Mail} alt="" />
+        </div>
+        <div className="Hori"></div>
+        <div>
+          <img src={Whatsapp} alt="" />
+        </div>
+      </div>
 
-      <table style={{ margin: "auto" , width : '700px' , textAlign : 'center' , marginTop : '3%' , marginBottom : '3%' , fontSize : '23px' }}>
-        <tr>
-          <td style={{borderRight : '1px solid black'}}>
-            {" "}
-            <img src={phone} alt="" style={{ width: "80px"  }} />
-          </td>
-          <td style={{borderRight : '1px solid black'}}>
-            {" "}
-            <img src={Mail} alt="" style={{ width: "80px" }} />
-          </td>
-          <td>
-            {" "}
-            <img src={Whatsapp} alt="" style={{ width: "80px" }} />
-          </td>
-        </tr>
-        <tr>
-          <td>PHONE</td>
-          <td>EMAIL US</td>
-          <td>WHATSAPP US</td>
-        </tr>
-      </table>
+      <div style={{ display: "flex", justifyContent: "center", gap: "150px" , fontWeight : 'lighter' }}>
+        <h3>PHONE  </h3>
+
+        <h3>EMAIL US  </h3>
+
+        <h3> WHATSAPP US  </h3>
+      </div>
 
       <Footer />
     </>

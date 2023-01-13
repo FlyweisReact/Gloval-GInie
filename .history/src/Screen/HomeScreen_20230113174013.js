@@ -191,7 +191,9 @@ const HomeScreen = () => {
         </div>
       </div>
 
-  
+      <div className="resBigDealCarousel">
+        <ResBigCarousel />
+      </div>
 
       <div className="pro">
         <h1>INTERNATION BEST SELLERS</h1>
