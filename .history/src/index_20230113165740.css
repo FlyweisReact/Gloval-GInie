@@ -208,7 +208,7 @@ code {
   height: 350px;
   transition: 0.5s;
 }
-.NewProductS .item .imgeOuter:hover {
+.NewProductS .item .imgeOuter:hover{
   background-color: #e7e7e7;
   border: none;
 }
@@ -236,6 +236,7 @@ code {
   margin: auto;
 }
 
+
 .myNewOldSec {
   display: flex;
   margin-top: 3% !important;
@@ -247,38 +248,39 @@ code {
 }
 .myNewOldSec .left {
   width: 45%;
+
 }
 .myNewOldSec .left img {
   width: 100%;
   height: 100%;
 }
-.myNewOldSec .right {
+.myNewOldSec .right{
   width: 50%;
   text-align: left;
   margin: auto auto;
 }
 
-.myNewOldSec .right .group {
+.myNewOldSec .right .group{
   display: flex;
   width: 100%;
   margin: auto;
-  gap: 20px;
+  gap:20px;
   justify-content: space-between;
 }
-.myNewOldSec .right .group .dives {
+.myNewOldSec .right .group .dives{
   cursor: pointer;
   max-width: 300px;
 }
-.myNewOldSec .right .group .dives p {
+.myNewOldSec .right .group .dives p{
   margin-top: 10px;
 }
-.myNewOldSec .right .group .dives .imageDiv {
+.myNewOldSec .right .group .dives .imageDiv{
   position: relative;
   width: 100%;
   height: 250px;
   transition: 0.5s;
 }
-.myNewOldSec .right .group .dives .imageDiv img {
+.myNewOldSec .right .group .dives .imageDiv img{
   position: absolute;
   width: 70%;
   left: 0;
@@ -289,10 +291,12 @@ code {
   padding: 20px;
 }
 
-.myNewOldSec .right .group .dives .imageDiv:hover {
+.myNewOldSec .right .group .dives .imageDiv:hover{
   background-color: #e7e7e7;
   border: none;
 }
+
+
 
 .Desc {
   display: flex;
@@ -437,7 +441,7 @@ code {
   display: block;
   margin-bottom: 4% !important;
 }
-.BanImage img {
+.BanImage img{
   width: 100%;
 }
 
@@ -533,7 +537,7 @@ input[type="date"] {
   position: relative;
   height: 100%;
 }
-.footer .all {
+.footer .all{
   max-width: 1400px;
   display: block;
   margin: auto;
@@ -586,6 +590,8 @@ input[type="date"] {
   font-weight: 100;
   height: 30px;
 }
+
+
 
 .special {
   display: flex;
@@ -2663,8 +2669,11 @@ input[type="date"] {
 
   .QTY div {
     margin-right: 0 !important;
+    /* text-align: center; */
+    /* display: block; */
     margin-left: 25%;
     margin-top: 4%;
+    /* margin: auto; */
   }
   .ReturnRefund div {
     display: block;
@@ -2920,6 +2929,7 @@ input[type="date"] {
   }
 }
 
+
 .resBigDealCarousel {
   display: none;
 }
@@ -2942,74 +2952,7 @@ input[type="date"] {
   margin: auto;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1500px) {
-  .MainNav {
-    max-width: 1000px;
-  }
-  .ImageCarousel {
-    max-width: 1000px;
-  }
-  .two-sec {
-    max-width: 1000px;
-  }
-  .pro {
-    max-width: 1000px;
-  }
-  .NewProductS {
-    max-width: 1000px;
-  }
-  .myNewSec {
-    max-width: 1000px;
-  }
-  .myNewOldSec {
-    max-width: 1000px;
-  }
-  .many {
-    max-width: 1000px;
-  }
-  .BanImage {
-    max-width: 1000px;
-  }
-  .human {
-    max-width: 1000px;
-  }
-  .footer .all {
-    max-width: 1000px;
-  }
-}
 
-@media screen and (min-width: 600px) and (max-width: 980px) {
-  .MainNav {
-    max-width: 800px;
-  }
-  .ImageCarousel {
-    max-width: 800px;
-  }
-  .two-sec {
-    max-width: 800px;
-  }
-  .pro {
-    max-width: 800px;
-  }
-  .NewProductS {
-    max-width: 800px;
-  }
-  .myNewSec {
-    max-width: 800px;
-  }
-  .myNewOldSec {
-    max-width: 800px;
-  }
-  .many {
-    max-width: 800px;
-  }
-  .BanImage {
-    max-width: 800px;
-  }
-  .human {
-    max-width: 800px;
-  }
-  .footer .all {
-    max-width: 800px;
-  }
+@media (max-width : 1400) {
+  
 }

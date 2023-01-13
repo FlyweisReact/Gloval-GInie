@@ -1,8 +1,10 @@
 /** @format */
+
 import React, { useEffect } from "react";
 import Mask2 from "../Images/Mask Group 2 1.png";
 import Hero from "../Component/Hero";
 import Reviews from "../Component/Reviews";
+
 import gel from "../Images/618-39BSrgL._SL1500_-removebg-preview.png";
 import adi from "../Images/adidas_Stadium_750_ML__26oz__Plastic_Water_Bottle-removebg-preview.png";
 import Apple from "../Images/Apple_Watch_Series_7__GPS__45mm__Midnight-removebg-preview.png";
@@ -13,18 +15,25 @@ import Mail from "../Images/Mail_Icon-removebg-preview.png";
 import phone from "../Images/Phone_call-removebg-preview.png";
 import Whatsapp from "../Images/Whatsapp_icon-removebg-preview.png";
 import Footer from "../Component/Footer";
+
 import img from "../Images/Vitamin_C-removebg-preview.png";
+
 import { useNavigate } from "react-router-dom";
 import ResBigCarousel from "../Component/ResBigCarousel";
+
 import newImg from "../Images/Canon_EF_70-200mm_f2.8L_IS_III_USM_Lens_for_Canon-removebg-preview.png";
+
 import newImg2 from "../Images/61tE7IcuLmL._SL1500_-removebg-preview.png";
 import newImg4 from "../Images/71LKSq7g51L._AC_SL1500_-removebg-preview.png";
 import newImg6 from "../Images/Corsair_Vengeance_RGB_Pro_32GB__2x16GB__DDR4_2933-removebg-preview.png";
+
 import newImg7 from "../Images/photographer-man-taking-photos-village 1.png";
+
 import newImg8 from "../Images/bag.png";
 import newImg9 from "../Images/camera.png";
 import newImg10 from "../Images/controller.png";
 import newImg11 from "../Images/headphone.png";
+
 import newImg12 from '../Images/Get Me This 1.png'
 
 const HomeScreen = () => {

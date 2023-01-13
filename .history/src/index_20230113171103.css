@@ -2946,70 +2946,26 @@ input[type="date"] {
   .MainNav {
     max-width: 1000px;
   }
-  .ImageCarousel {
+  .ImageCarousel{
     max-width: 1000px;
   }
   .two-sec {
     max-width: 1000px;
   }
-  .pro {
+  .pro{
     max-width: 1000px;
   }
-  .NewProductS {
-    max-width: 1000px;
-  }
-  .myNewSec {
-    max-width: 1000px;
-  }
-  .myNewOldSec {
-    max-width: 1000px;
-  }
-  .many {
-    max-width: 1000px;
-  }
-  .BanImage {
-    max-width: 1000px;
-  }
-  .human {
-    max-width: 1000px;
-  }
-  .footer .all {
-    max-width: 1000px;
-  }
+  .NewProductS{}
+  .myNewSec{}
+  .myNewOldSec{}
+  .many{}
+  .BanImage{}
+  .human{}
+  .footer .all{}
 }
 
 @media screen and (min-width: 600px) and (max-width: 980px) {
-  .MainNav {
-    max-width: 800px;
-  }
-  .ImageCarousel {
-    max-width: 800px;
-  }
   .two-sec {
-    max-width: 800px;
-  }
-  .pro {
-    max-width: 800px;
-  }
-  .NewProductS {
-    max-width: 800px;
-  }
-  .myNewSec {
-    max-width: 800px;
-  }
-  .myNewOldSec {
-    max-width: 800px;
-  }
-  .many {
-    max-width: 800px;
-  }
-  .BanImage {
-    max-width: 800px;
-  }
-  .human {
-    max-width: 800px;
-  }
-  .footer .all {
     max-width: 800px;
   }
 }
