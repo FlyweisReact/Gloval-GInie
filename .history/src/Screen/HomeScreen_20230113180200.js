@@ -298,11 +298,11 @@ const HomeScreen = () => {
             {" "}
             <img src={phone} alt="" style={{ width: "80px"  }} />
           </td>
-          <td style={{borderRight : '1px solid black' ,width : '33%'}}>
+          <td style={{borderRight : '1px solid black'}}>
             {" "}
             <img src={Mail} alt="" style={{ width: "80px" }} />
           </td>
-          <td style={{width : '33%'}}>
+          <td>
             {" "}
             <img src={Whatsapp} alt="" style={{ width: "80px" }} />
           </td>

@@ -302,7 +302,7 @@ const HomeScreen = () => {
             {" "}
             <img src={Mail} alt="" style={{ width: "80px" }} />
           </td>
-          <td style={{width : '33%'}}>
+          <td>
             {" "}
             <img src={Whatsapp} alt="" style={{ width: "80px" }} />
           </td>
