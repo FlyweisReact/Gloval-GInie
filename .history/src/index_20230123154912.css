@@ -120,12 +120,7 @@ code {
 
 @font-face {
   font-family: FuturaMine;
-  src: url(./Fonts/Futura/Futura\ Light.otf);
-}
-
-@font-face {
-  font-family: NexaBold;
-  src: url(./Fonts/nexa\ heavy.otf);
+  src: url(./);
 }
 
 
@@ -171,8 +166,8 @@ code {
   border: 1px solid black;
   border-radius: 5px;
   font-size: 2rem;
-  /* font-weight: 600; */
-  font-family: NexaBold;
+  font-weight: 600;
+  font-family: Nexa;
   transition: 0.5s;
 }
 

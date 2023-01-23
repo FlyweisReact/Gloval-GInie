@@ -171,7 +171,7 @@ code {
   border: 1px solid black;
   border-radius: 5px;
   font-size: 2rem;
-  /* font-weight: 600; */
+  font-weight: 600;
   font-family: NexaBold;
   transition: 0.5s;
 }
