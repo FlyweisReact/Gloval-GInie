@@ -114,8 +114,8 @@ code {
 /* Two-section */
 
 @font-face {
-  font-family: MonumentMine;
-  src: url(./Fonts/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
+  font-family: ;
+  src: url();
 }
 
 .two-sec {
@@ -150,7 +150,7 @@ code {
 }
 
 .two-sec .right h1 {
-  font-family: MonumentMine;
+  font-family: Monument;
   font-size: 3rem;
 }
 .two-sec .right button {
